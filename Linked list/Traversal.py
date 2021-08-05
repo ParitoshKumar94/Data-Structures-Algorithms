@@ -1,6 +1,8 @@
 import sys
-sys.path.append(r'C:\Users\Paritosh Kumar\Documents\Data Structures Algorithms\Data-Structures-Algorithms\Linked list')
-from Linkedlist import Linkedlist
+sys.path.append(r".")
+
+
+from Linkedlist import LinkedList
 from Node import Node
 
 
@@ -24,7 +26,7 @@ def insert_at_tail(lst, value):
     return
 
 
-lst = Linkedlist()
+lst = LinkedList()
 lst.print_list()
 insert_at_tail(lst, 0)
 lst.print_list()
